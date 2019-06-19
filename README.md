@@ -25,16 +25,22 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 2.  **Clone the Repository**
 
-3.  **Start developing.**
+3. **Install Packages**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and install the packages.
+    
+    ```sh
+    cd mozguj
+    yarn install
+    ```
+
+4.  **Start developing.**
 
     ```sh
-    cd mozguj/
     gatsby develop
     ```
 
-4.  **Open the source code and start editing!**
+5.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
