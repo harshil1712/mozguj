@@ -20,21 +20,41 @@
 
 // export default IndexPage
 
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import Masonry from 'react-masonry-component'
-import Img from 'gatsby-image'
+import React from "react"
+import { Link, graphql } from "gatsby"
+import Masonry from "react-masonry-component"
+import Img from "gatsby-image"
 import Layout from "../components/layout"
+import { Container, Row, Col } from "react-bootstrap"
+import SemiCicle from "../components/semicircle"
+
+const masonryOptions = {
+  columnWidth: 155,
+}
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <Masonry>
-      {data.allImagesJson.edges.map(({ node }) => (
-        <div key={node.id}>
-              <Img fixed={node.image.childImageSharp.fixed}/>
-        </div>
-      ))}
-    </Masonry>
+    <Container>
+      <Row>
+        <Col md={6}>
+          <Masonry options={masonryOptions}>
+            {data.allImagesJson.edges.map(({ node }) => (
+              <div key={node.id}>
+                <Img
+                  fixed={node.image.childImageSharp.fixed}
+                  style={{ borderRadius: 15 }}
+                />
+              </div>
+            ))}
+          </Masonry>
+        </Col>
+        <Col md={6}>
+          <SemiCicle>
+            <div style={{ marginTop: 50 }}>Hello</div>
+          </SemiCicle>
+        </Col>
+      </Row>
+    </Container>
   </Layout>
 )
 
@@ -50,7 +70,7 @@ export const query = graphql`
           image {
             id
             childImageSharp {
-              fixed (width:300){
+              fixed(width: 250) {
                 src
                 ...GatsbyImageSharpFixed
               }
