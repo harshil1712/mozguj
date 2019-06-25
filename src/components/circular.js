@@ -1,12 +1,12 @@
 import styled from "styled-components"
 
-const height = window.outerHeight * 1.5
+// const height = window.outerHeight * 1.5
 
 const SemiCircle = styled.div`
   position: absolute;
   width: 30%;
-  min-height: 125vh;
-  top: -25px;
+  min-height: 100vh;
+  top: 0;
   z-index:-1;
   overflow-y:hidden;
   /* prettier stop */
@@ -21,5 +21,5 @@ const SemiCircle = styled.div`
   }};
 }
 `
-console.log(height)
+// console.log(height)
 export default SemiCircle
