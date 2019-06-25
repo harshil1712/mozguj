@@ -5,10 +5,9 @@ import styled from "styled-components"
 const SemiCircle = styled.div`
   position: absolute;
   width: 30%;
-  min-height: 100vh;
-  top: 0;
+  min-height: 115vh;
+  top: -35px;
   z-index:-1;
-  overflow-y:hidden;
   /* prettier stop */
   ${props => {
     return props.left

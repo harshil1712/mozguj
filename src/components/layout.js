@@ -5,7 +5,6 @@ import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
-import { Container } from "react-bootstrap"
 import SemiCircle from "../components/circular"
 
 const Layout = ({ children }) => (
@@ -23,7 +22,7 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         {/* <SemiCircle /> */}
-        <Container style={{ overflowY: "hidden" }}>{children}</Container>
+        <main style={{ overflowY: "hidden" }}>{children}</main>
         {/* <main>{children}</main> */}
         <footer>
           © {new Date().getFullYear()}, Built with
