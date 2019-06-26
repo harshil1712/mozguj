@@ -4,12 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import SemiCircle from "../components/circular"
+import { SemiCircle, SemiCircleContainer } from "../components/circular"
 import { Grid } from "@material-ui/core"
 
 const IndexPage = () => (
   <Layout>
-    <SemiCircle color="#049ea8" />
+    <SemiCircleContainer>
+      <SemiCircle color="#049ea8" />
+    </SemiCircleContainer>
     <SEO title="Home" />
     <Grid container>
       <Grid item md={6}>

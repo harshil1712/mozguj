@@ -4,15 +4,12 @@ import styled from "styled-components"
 
 const SemiCircle = styled.div`
   position: absolute;
-  width: 30%;
-  min-height: 115vh;
-  top: -35px;
+  width: 100%;
+  min-height: 100%;
   z-index:-1;
   /* prettier stop */
   ${props => {
-    return props.left
-      ? `border-top-right-radius: 50%; border-bottom-right-radius: 50%; left:0;`
-      : `border-top-left-radius: 50%; border-bottom-left-radius: 50%; right: 0;`
+    return props.left ? `left:0;` : `right: 0;`
   }};
   ${props => {
     const color = props.color
@@ -20,5 +17,18 @@ const SemiCircle = styled.div`
   }};
 }
 `
+
+const SemiCircleContainer = styled.div`
+  position: absolute;
+  width: 40%;
+  min-height: 100vh;
+  top: 0px;
+  overflow: hidden;
+  ${props => {
+    return props.left
+      ? `border-top-right-radius: 100%; border-bottom-right-radius: 100%; left:0;`
+      : `border-top-left-radius: 100%; border-bottom-left-radius: 100%; right: 0;`
+  }};
+`
 // console.log(height)
-export default SemiCircle
+export { SemiCircle, SemiCircleContainer }
