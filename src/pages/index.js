@@ -1,40 +1,69 @@
-// import React from "react"
-// import { Link } from "gatsby"
-
-// import Layout from "../components/layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
-
-// const IndexPage = () => (
-//   <Layout>
-//     <SEO title="Home" />
-//     <h1>Hi people</h1>
-//     <p>Welcome to your new Gatsby site.</p>
-//     <p>Now go build something great.</p>
-//     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-//       <Image />
-//     </div>
-//     <Link to="/page-2/">Go to page 2</Link>
-//   </Layout>
-// )
-
-// export default IndexPage
-
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Masonry from "react-masonry-component"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import { Grid, Typography, Button, GridList } from "@material-ui/core"
+import { withStyles } from "@material-ui/core/styles"
+
+const StyledButton = withStyles({
+  root: {
+    background: "#049ea8",
+    borderRadius: 25,
+    border: 0,
+    color: "white",
+    padding: "5px 15px",
+  },
+  label: {
+    textTransform: "capitalize",
+    fontSize: 18,
+  },
+})(Button)
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <Masonry>
-      {data.allImagesJson.edges.map(({ node }) => (
-        <div key={node.id}>
-          <Img fixed={node.image.childImageSharp.fixed} />
-        </div>
-      ))}
-    </Masonry>
+    <Grid container spacing={2}>
+      <Grid item md={8}>
+        <Masonry enableResizableChildren={true} options={{ gutter: 10 }}>
+          {data.allImagesJson.edges.map(({ node }) => (
+            <div key={node.id}>
+              <Img
+                fixed={node.image.childImageSharp.fixed}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+          ))}
+        </Masonry>
+      </Grid>
+      <Grid item md={1}></Grid>
+      <Grid item md={3} style={{ textAlign: "right", paddingTop: "5rem" }}>
+        <GridList cols={1} cellHeight={120}>
+          <div>
+            <Typography variant="h5" style={{ fontWeight: 700 }}>
+              Mozilla Gujarat
+            </Typography>
+            <Typography variant="caption">
+              The most Diverse Mozilla Local Community
+            </Typography>
+          </div>
+          <div>
+            <Typography>We are Mozilla Gujarat!</Typography>
+            <Typography>
+              A highly enthusiastic community of Mozilla lovers in Gujarat,
+              India.
+            </Typography>
+            <Typography component="p">
+              We{" "}
+              <span role="img" aria-label="heart emoji">
+                &#x2764;&#xFE0F;
+              </span>{" "}
+              the Web!
+            </Typography>
+          </div>
+        </GridList>
+        <StyledButton>Join Us!</StyledButton>
+      </Grid>
+    </Grid>
   </Layout>
 )
 
@@ -50,7 +79,7 @@ export const query = graphql`
           image {
             id
             childImageSharp {
-              fixed(width: 300) {
+              fixed(width: 250) {
                 src
                 ...GatsbyImageSharpFixed
               }
