@@ -8,6 +8,7 @@ const FooterPaper = styled.div`
   height: 50px;
   text-transform: "capitalize";
   font-size: 18px;
+  font-family: "Zilla Slab";
 `
 
 const Footer = () => (
@@ -17,7 +18,7 @@ const Footer = () => (
         style={{
           background: "black",
           color: "white",
-          fontWeight: 400,
+          fontWeight: 600,
           lineHeight: 3,
         }}
       >
