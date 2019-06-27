@@ -11,8 +11,8 @@ const SemiCircle = styled.div`
   /* prettier stop */
   ${props => {
     return props.left
-      ? `border-top-right-radius: 100%; border-bottom-right-radius: 100%;`
-      : `border-top-left-radius: 100%; border-bottom-left-radius: 100%;`
+      ? `border-top-right-radius: 100%; border-bottom-right-radius: 100%; right:0`
+      : `border-top-left-radius: 100%; border-bottom-left-radius: 100%; left:0`
   }};
   ${props => {
     const color = props.color
