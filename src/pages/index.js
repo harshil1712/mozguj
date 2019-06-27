@@ -3,22 +3,18 @@ import { graphql } from "gatsby"
 import Masonry from "react-masonry-component"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
-import { Grid, Typography, Button, GridList } from "@material-ui/core"
-import { withStyles } from "@material-ui/core/styles"
+import { Grid, Typography, GridList } from "@material-ui/core"
+import styled from "styled-components"
 
-const StyledButton = withStyles({
-  root: {
-    background: "#049ea8",
-    borderRadius: 25,
-    border: 0,
-    color: "white",
-    padding: "5px 15px",
-  },
-  label: {
-    textTransform: "capitalize",
-    fontSize: 18,
-  },
-})(Button)
+const StyledButton = styled.button`
+  background: #049ea8;
+  border-radius: 25px;
+  border: 0;
+  color: white;
+  padding: 5px 15px;
+  text-transform: "capitalize";
+  font-size: 18px;
+`
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -52,7 +48,7 @@ const IndexPage = ({ data }) => (
               A highly enthusiastic community of Mozilla lovers in Gujarat,
               India.
             </Typography>
-            <Typography component="p">
+            <Typography variant="inherit" style={{ fontFamily: "Zilla Slab" }}>
               We{" "}
               <span role="img" aria-label="heart emoji">
                 &#x2764;&#xFE0F;
@@ -61,7 +57,9 @@ const IndexPage = ({ data }) => (
             </Typography>
           </div>
         </GridList>
-        <StyledButton>Join Us!</StyledButton>
+        <StyledButton>
+          <Typography>Join Us!</Typography>
+        </StyledButton>
       </Grid>
     </Grid>
   </Layout>

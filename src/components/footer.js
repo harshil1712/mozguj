@@ -1,33 +1,28 @@
 import React from "react"
-import { Typography, Paper } from "@material-ui/core"
-import { withStyles } from "@material-ui/core/styles"
+import { Typography } from "@material-ui/core"
+import styled from "styled-components"
 
-const FooterPaper = withStyles({
-  root: {
-    borderTop: "1px solid #989898",
-    borderRadius: 0,
-    textAlign: "center",
-    height: "50px",
-  },
-  label: {
-    textTransform: "capitalize",
-    fontSize: 18,
-  },
-})(Paper)
+const FooterPaper = styled.div`
+  border-top: 1px solid #989898;
+  text-align: center;
+  height: 50px;
+  text-transform: "capitalize";
+  font-size: 18px;
+`
 
 const Footer = () => (
   <FooterPaper elevation={0}>
-    <Typography>
+    <Typography variant="inherit">
       <span
         style={{
           background: "black",
           color: "white",
-          fontWeight: 600,
+          fontWeight: 400,
           lineHeight: 3,
         }}
       >
-        Built by MozGuj Volunteers with{" "}
-      </span>
+        Built by MozGuj Volunteers with
+      </span>{" "}
       <span role="img" aria-label="heart emoji">
         &#x2764;&#xFE0F;
       </span>
