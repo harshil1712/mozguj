@@ -10,7 +10,7 @@ import { Grid } from "@material-ui/core"
 const IndexPage = () => (
   <Layout>
     <SemiCircleContainer>
-      <SemiCircle color="#049ea8" />
+      <SemiCircle color="#049ea8" home />
     </SemiCircleContainer>
     <SEO title="Home" />
     <Grid container>

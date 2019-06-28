@@ -5,14 +5,16 @@ import styled from "styled-components"
 const SemiCircle = styled.div`
   position: absolute;
   width: 100vh;
-  height: 110vh;
   z-index:-1;
-  top: -5vh;
   /* prettier stop */
   ${props => {
-    return props.left
-      ? `border-top-right-radius: 100%; border-bottom-right-radius: 100%; right:0`
-      : `border-top-left-radius: 100%; border-bottom-left-radius: 100%; left:0`
+    if (props.left) {
+      return `border-top-right-radius: 100%; border-bottom-right-radius: 100%; right:0;top: -10vh;height: 120vh;`
+    } else if (props.home) {
+      return `border-top-left-radius: 100%; border-bottom-left-radius: 100%; left:0;top: -5vh;height: 110vh;`
+    } else {
+      return `border-top-left-radius: 100%; border-bottom-left-radius: 100%; left:0;top: -10vh;height: 120vh;`
+    }
   }};
   ${props => {
     const color = props.color
