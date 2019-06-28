@@ -1,29 +1,50 @@
 import React from "react"
-import { Navbar } from "react-bootstrap"
-import { Nav } from "react-bootstrap"
-import { NavDropdown } from "react-bootstrap"
+import { makeStyles } from "@material-ui/core/styles"
+import AppBar from "@material-ui/core/AppBar"
+import Toolbar from "@material-ui/core/Toolbar"
+import Typography from "@material-ui/core/Typography"
+import Button from "@material-ui/core/Button"
+import styled from "styled-components"
+import "./layout.css"
 
-const Header = () => (
-  <Navbar bg="light" expand="lg">
-    <Navbar.Brand href="#home">Mozilla Gujarat</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <left>
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-end">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Events</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">
-              Upcoming Events
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Previous Events
-            </NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-      </Navbar.Collapse>
-    </left>
-  </Navbar>
-)
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 100,
+  },
+  title: {
+    flexGrow: 10,
+  },
+}))
+
+const StyledButton = styled.button`
+  background: white;
+  border-radius: 25px;
+  border: 0;
+  color: solid black;
+  padding: 5px 15px;
+  text-transform: "capitalize";
+  font-size: 10px;
+`
+
+const Header = ({ siteTitle }) => {
+  const classes = useStyles()
+
+  return (
+    <div className={classes.root}>
+      <AppBar position="static" color="white">
+        <Toolbar>
+          <Typography className={classes.title}>Mozilla Gujarat</Typography>
+          <Button className="button-text-class">home</Button>
+          <Button className="button-text-class">about</Button>
+          <Button className="button-text-class">FAQ</Button>
+          <Button className="button-text-class">events</Button>
+          <StyledButton>
+            <Typography>Get Started</Typography>
+          </StyledButton>
+        </Toolbar>
+      </AppBar>
+    </div>
+  )
+}
 
 export default Header
