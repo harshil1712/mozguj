@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Image 1",
+    "image": "./images/img1.jpg",
+    "caption": "Image 1 Cap"
+  },
+  {
+    "title": "Image 2",
+    "image": "./images/img3.jpg",
+    "caption": "Image 2 Cap"
+  },
+  {
+    "title": "Image 3",
+    "image": "./images/img2.jpg",
+    "caption": "Image 3 Cap"
+  },
+  {
+    "title": "Image 4",
+    "image": "./images/img4.jpg",
+    "caption": "Image 4 Cap"
+  },
+  {
+    "title": "Image 5",
+    "image": "./images/img5.jpg",
+    "caption": "Image 5 Cap"
+  },
+  {
+    "title": "Image 6",
+    "image": "./images/img6.jpg",
+    "caption": "Image 6 Cap"
+  },
+  {
+    "title": "Image 7",
+    "image": "./images/img7.jpg",
+    "caption": "Image 7 Cap"
+  },
+  {
+    "title": "Image 8",
+    "image": "./images/img8.jpg",
+    "caption": "Image 8 Cap"
+  }
+]
