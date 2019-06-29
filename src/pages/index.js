@@ -8,10 +8,9 @@ import { Grid, Typography, GridList } from "@material-ui/core"
 import styled from "styled-components"
 
 const StyledButton = styled.button`
-  background: #049ea8;
+  background: white;
   border-radius: 25px;
   border: 0;
-  color: white;
   padding: 5px 15px;
   text-transform: "capitalize";
   font-size: 18px;
@@ -36,7 +35,11 @@ const IndexPage = ({ data }) => (
         </Masonry>
       </Grid>
       <Grid item md={1}></Grid>
-      <Grid item md={3} style={{ textAlign: "right", paddingTop: "5rem" }}>
+      <Grid
+        item
+        md={3}
+        style={{ textAlign: "right", paddingTop: "5rem", color: "white" }}
+      >
         <GridList cols={1} cellHeight={120}>
           <div>
             <Typography variant="h5" style={{ fontWeight: 700 }}>
