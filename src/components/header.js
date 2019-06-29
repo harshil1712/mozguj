@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="white">
+      <AppBar position="static" className="app-bar" color="inherit">
         <Toolbar>
           <Typography className={classes.title}>Mozilla Gujarat</Typography>
           <Button className="button-text-class">home</Button>

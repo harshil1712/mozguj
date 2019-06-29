@@ -13,6 +13,10 @@ body {
   text-transform: none !important;
 }
 
+.app-bar {
+  min-block-size: 75px !important;
+}
+
 article,
 aside,
 details,
