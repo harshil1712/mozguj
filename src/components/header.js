@@ -6,7 +6,6 @@ import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
 import styled from "styled-components"
 import "./layout.css"
-import "./semicircle"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -33,13 +32,24 @@ const Header = ({ siteTitle }) => {
   return (
     <div className={classes.root}>
       <AppBar position="static" className="app-bar" color="inherit">
-        <Toolbar>
+        <Toolbar style={{ zIndex: 500 }}>
           <Typography className={classes.title}>Mozilla Gujarat</Typography>
-          <Button className="button-text-class">home</Button>
-          <Button className="button-text-class">about</Button>
-          <Button className="button-text-class">FAQ</Button>
-          <Button className="button-text-class">events</Button>
-          <StyledButton className="margin-space">
+          <Button className="button-text-class">
+            <Typography>home</Typography>
+          </Button>
+          <Button className="button-text-class">
+            <Typography>about</Typography>
+          </Button>
+          <Button className="button-text-class">
+            <Typography>FAQ</Typography>
+          </Button>
+          <Button className="button-text-class">
+            <Typography>events</Typography>
+          </Button>
+          <StyledButton
+            className="margin-space"
+            onClick={() => console.log("clicked")}
+          >
             <Typography>Get Started</Typography>
           </StyledButton>
         </Toolbar>

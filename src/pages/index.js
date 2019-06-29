@@ -38,7 +38,12 @@ const IndexPage = ({ data }) => (
       <Grid
         item
         md={3}
-        style={{ textAlign: "right", paddingTop: "5rem", color: "white" }}
+        style={{
+          textAlign: "right",
+          paddingTop: "5rem",
+          color: "white",
+          zIndex: 500,
+        }}
       >
         <GridList cols={1} cellHeight={120}>
           <div>
@@ -64,7 +69,7 @@ const IndexPage = ({ data }) => (
             </Typography>
           </div>
         </GridList>
-        <StyledButton>
+        <StyledButton onClick={() => console.log("clicked")}>
           <Typography>Join Us!</Typography>
         </StyledButton>
       </Grid>

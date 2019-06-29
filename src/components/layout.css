@@ -13,12 +13,14 @@ body {
 
 .button-text-class {
   text-transform: none !important;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .app-bar {
   min-block-size: 75px !important;
   background: transparent !important;
+  z-index: 500;
+  margin-bottom: 20px;
 }
 .margin-space {
   margin-left: 130px;

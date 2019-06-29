@@ -1,7 +1,5 @@
 import styled from "styled-components"
 
-// const height = window.outerHeight * 1.5
-
 const SemiCircle = styled.div`
   position: absolute;
   width: 100vh;
@@ -33,5 +31,4 @@ const SemiCircleContainer = styled.div`
     return props.left ? `left:0;` : `right: 0;`
   }};
 `
-// console.log(height)
 export { SemiCircle, SemiCircleContainer }
