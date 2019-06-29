@@ -6,9 +6,12 @@ const FooterPaper = styled.div`
   border-top: 1px solid #989898;
   text-align: center;
   height: 50px;
-  text-transform: "capitalize";
+  text-transform: capitalize;
   font-size: 18px;
   font-family: "Zilla Slab";
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
 `
 
 const Footer = () => (
