@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
 import styled from "styled-components"
 import "./layout.css"
+import "./semicircle"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -38,7 +39,7 @@ const Header = ({ siteTitle }) => {
           <Button className="button-text-class">about</Button>
           <Button className="button-text-class">FAQ</Button>
           <Button className="button-text-class">events</Button>
-          <StyledButton>
+          <StyledButton className="margin-space">
             <Typography>Get Started</Typography>
           </StyledButton>
         </Toolbar>

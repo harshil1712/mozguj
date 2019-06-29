@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7,14 +8,20 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Zilla Slab", "Open Sans", X-LocaleSpecific, sans-serif;
 }
 
 .button-text-class {
   text-transform: none !important;
+  z-index: 1;
 }
 
 .app-bar {
   min-block-size: 75px !important;
+  background: transparent !important;
+}
+.margin-space {
+  margin-left: 130px;
 }
 
 article,
