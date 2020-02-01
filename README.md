@@ -1,6 +1,11 @@
 <h1 align="center">
 Mozilla Gujarat
-</h1>
+ </h1>
+ <h3 align="center"> The Most Diverse Mozilla Community
+</h3>
+ <a href="">
+    <img alt="Mozilla Gujarat" src="https://github.com/pransh15/mozguj-logo/blob/master/mozguj-horizontal-black.png" width="60" >
+  </a>
 
-![mozguj-horizontal-white](https://user-images.githubusercontent.com/47818179/73522475-7f1cce00-442e-11ea-919d-873054aa6ff4.png) 
-
+<p>A highly enthusiastic community of Mozilla lovers in Gujarat, India. 
+We ❤️ the Web.</p>
