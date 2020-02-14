@@ -32,3 +32,4 @@ Guidelines
  1. Make sure to add **Comments** in the code wherever neccesary.
  2. All the assets are uploaded to the **assets** folder.
  3. Here is the Link to all the [Assets](https://xd.adobe.com/view/d91a1403-d669-476a-42e6-5a0fc1f8c912-af2b/screen/89b3f260-08cf-465e-89db-9c26910765ac/Web-1920-8).
+ 4. All the JS files must be in **script** folder, CSS files in **style** folder respectively.
