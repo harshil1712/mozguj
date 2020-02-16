@@ -1,17 +1,35 @@
 .header-menu {
     font-family: 'Zilla Slab', serif;
 }
-.header-menu .main-menu .navbar-brand {
-    
-}
+
 
 .header-menu .main-menu .navbar-nav .nav-link{
-    width: 150px;
-    height: 83px;
-    font-size:21px;
+    width: 170px;
+    height: 50px;
+    font-size:30px;
     font-weight: 550;
     display:block;
 justify-content:space-between;
 margin-left:-35px;
 
 }
+.header-menu .main-menu .navbar-nav .button{
+    
+        box-shadow: 6px -6px 0px 0px #000000;
+        background-color:#ffffff;
+        border:1px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-size:21px;
+        font-style:italic;
+        padding:9px 17px;
+        text-decoration:none;
+    }
+    .header-menu .main-menu .navbar-nav  .button:hover {
+        background-color:#faf60b;
+    }
+    .header-menu .main-menu .navbar-nav  .button:active {
+        position:relative;
+        top:1px;
+    }
