@@ -1,1 +1,17 @@
-This is a Demo CSS file
+.header-menu {
+    font-family: 'Zilla Slab', serif;
+}
+.header-menu .main-menu .navbar-brand {
+    
+}
+
+.header-menu .main-menu .navbar-nav .nav-link{
+    width: 150px;
+    height: 83px;
+    font-size:21px;
+    font-weight: 550;
+    display:block;
+justify-content:space-between;
+margin-left:-35px;
+
+}
