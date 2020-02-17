@@ -1,5 +1,5 @@
 .header-menu {
-    122134
+    font-family: 'Zilla Slab', serif;
 }
 
 
@@ -32,6 +32,13 @@ margin-left:-35px;
         position:relative;
         top:1px;
     }
+    /* Start Banner Area */
+    .site-main .site-banner .para{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    /* End Banner Area */
 
     .card1{
       width: 220px;
