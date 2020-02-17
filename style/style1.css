@@ -1,0 +1,93 @@
+.header-menu {
+    122134
+}
+
+
+.header-menu .main-menu .navbar-nav .nav-link{
+    width: 170px;
+    height: 50px;
+    font-size:30px;
+    font-weight: 550;
+    display:block;
+justify-content:space-between;
+margin-left:-35px;
+
+}
+.header-menu .main-menu .navbar-nav .button{
+
+        box-shadow: 6px -6px 0px 0px #000000;
+        background-color:#ffffff;
+        border:1px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-size:21px;
+        font-style:italic;
+        text-decoration:none;
+    }
+    .header-menu .main-menu .navbar-nav  .button:hover {
+        background-color:#faf60b;
+    }
+    .header-menu .main-menu .navbar-nav  .button:active {
+        position:relative;
+        top:1px;
+    }
+
+    .card1{
+      width: 250px;
+      height: 210px;
+      font-size:30px;
+      font-weight: 550;
+      display:block;
+  justify-content:space-between;
+            box-shadow: 9px -9px 0px 0px #FF003B;
+            background-color:#ffffff;
+            border:2.5px solid #000000;
+            display:inline-block;
+            cursor:pointer;
+            color:#000000;
+            font-size:21px;
+            text-decoration:none;
+            border-radius: 10px;
+        }
+    .card2{
+          width: 250px;
+          height: 210px;
+          font-size:30px;
+          font-weight: 550;
+          display:block;
+      justify-content:space-between;
+                box-shadow: 9px -9px 0px 0px #FFAB0F;
+                background-color:#ffffff;
+                border:2.5px solid #000000;
+                display:inline-block;
+                cursor:pointer;
+                color:#000000;
+                font-size:21px;
+                text-decoration:none;
+                border-radius: 10px;
+            }
+    .card3{
+              width: 250px;
+              height: 210px;
+              font-size:30px;
+              font-weight: 550;
+              display:block;
+          justify-content:space-between;
+                    box-shadow: 9px -9px 0px 0px #00A2FF;
+                    background-color:#ffffff;
+                    border:2.5px solid #000000;
+                    display:inline-block;
+                    cursor:pointer;
+                    color:#000000;
+                    font-size:21px;
+                    text-decoration:none;
+                    border-radius: 10px;
+                }
+        h1, p{
+          font-family: 'Zilla Slab', serif;
+        }
+        footer{
+          margin-top: 30px;
+          height: 40px;
+        }
