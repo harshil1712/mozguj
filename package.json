@@ -1,0 +1,32 @@
+{
+  "name": "mozguj",
+  "version": "1.0.0",
+  "description": "Mozilla Gujarat Website",
+  "main": "index.js",
+  "repository": "git@github.com:harshil1712/mozguj.git",
+  "author": "Harshil <ghagrawal17@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "bootstrap": "^4.4.1",
+    "gatsby": "^2.19.18",
+    "gatsby-image": "^2.2.41",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-styled-components": "^3.1.19",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0",
+    "styled-components": "^5.0.1"
+  }
+}
