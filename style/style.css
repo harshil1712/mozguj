@@ -33,14 +33,14 @@ margin-left:-35px;
         top:1px;
     }
 
-    .card1{
+    .card{
       width: 220px;
       height: 290px;
       font-size:30px;
       font-weight: 550;
       display:block;
   justify-content:space-between;
-            box-shadow: 9px -9px 0px 0px #FF003B;
+            box-shadow: 9px -9px 0px 0px;
             background-color:#ffffff;
             border:2.5px solid #000000;
             display:inline-block;
@@ -50,14 +50,14 @@ margin-left:-35px;
             text-decoration:none;
             border-radius: 10px;
         }
-    .card2{
-          width: 220px;
-          height: 290px;
+        .card1{
+          width: 250px;
+          height: 210px;
           font-size:30px;
           font-weight: 550;
           display:block;
       justify-content:space-between;
-                box-shadow: 9px -9px 0px 0px #FFAB0F;
+                box-shadow: 9px -9px 0px 0px;
                 background-color:#ffffff;
                 border:2.5px solid #000000;
                 display:inline-block;
@@ -67,23 +67,6 @@ margin-left:-35px;
                 text-decoration:none;
                 border-radius: 10px;
             }
-    .card3{
-              width: 220px;
-              height: 290px;
-              font-size:30px;
-              font-weight: 550;
-              display:block;
-          justify-content:space-between;
-                    box-shadow: 9px -9px 0px 0px #00A2FF;
-                    background-color:#ffffff;
-                    border:2.5px solid #000000;
-                    display:inline-block;
-                    cursor:pointer;
-                    color:#000000;
-                    font-size:21px;
-                    text-decoration:none;
-                    border-radius: 10px;
-                }
         h1, p{
           font-family: 'Zilla Slab', serif;
         }
