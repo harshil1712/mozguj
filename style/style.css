@@ -35,37 +35,38 @@ margin-left:-35px;
     /* Start Banner Area */
     .site-main .site-banner .para{
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
     }
     .site-main .site-banner .image{
-      margin-left: 90px;
-        width: 1200px;
-        height: 160px;
+      margin-left: 280px;
+        width: 800px;
+        height: 120px;
     }
     .site-main .site-banner .para1{
         text-align: center;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 600;
         font-style: italic;
         text-decoration-color: black;
     }
     .site-main .site-banner .para2{
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
     }
     .site-main .site-banner  .button{
         box-shadow: 6px -6px 0px 0px #00A2FF;
-        background-color:#000000;
+        background-color:#FFFFFF;
+        border:1px solid #000000;
         border-radius: 4px ;
         display:block;
         cursor:pointer;
-        color:#FFFFFF;
+        color:#000000;
         font-style:italic;
         text-decoration:none;
         width: 100px; margin: 0 auto;
     }
     .site-main .site-banner .button:hover{
-        background-color:#8b8b86;
+        background-color:#ffff15;
     }
     .site-main .site-banner .button:active{
         position:relative;
@@ -73,7 +74,7 @@ margin-left:-35px;
     }
     .site-main .site-banner .para3{
         text-align: center;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 450;
         text-decoration-color: black;
         padding: 0px;
@@ -81,12 +82,12 @@ margin-left:-35px;
     .site-main .site-banner .para4{
         text-align: center;
         font-weight: 450;
-        font-size: 60px;
+        font-size: 30px;
         text-decoration-color: black;
     }
     .site-main .site-banner .para5{
         text-align: center;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 450;
         text-decoration-color: black;
     }
@@ -147,6 +148,6 @@ margin-left:-35px;
           font-family: 'Zilla Slab', serif;
         }
         footer{
-          margin-top: 30px;
+          margin-top: 49px;
           height: 40px;
         }
