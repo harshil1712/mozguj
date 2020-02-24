@@ -57,7 +57,7 @@ margin-left:-35px;
         box-shadow: 6px -6px 0px 0px #00A2FF;
         background-color:#FFFFFF;
         border:1px solid #000000;
-        border-radius: 4px ;
+        /* border-radius: 4px ; */
         display:block;
         cursor:pointer;
         color:#000000;
@@ -148,6 +148,6 @@ margin-left:-35px;
           font-family: 'Zilla Slab', serif;
         }
         footer{
-          margin-top: 49px;
+          margin-top: 48px;
           height: 40px;
         }
