@@ -2,17 +2,16 @@
     122134
 }
 
-
 .header-menu .main-menu .navbar-nav .nav-link{
     width: 170px;
     height: 50px;
     font-size:30px;
     font-weight: 550;
     display:block;
-justify-content:space-between;
-margin-left:-35px;
-
+    justify-content:space-between;
+    margin-left:-35px;
 }
+
 .header-menu .main-menu .navbar-nav .button{
 
         box-shadow: 6px -6px 0px 0px #000000;
@@ -24,58 +23,116 @@ margin-left:-35px;
         font-size:21px;
         font-style:italic;
         text-decoration:none;
-    }
-    .header-menu .main-menu .navbar-nav  .button:hover {
+}
+.header-menu .main-menu .navbar-nav  .button:hover {
         background-color:#faf60b;
+}
+.header-menu .main-menu .navbar-nav  .button:active {
+        position:relative;
+        top:1px;
+}
+
+
+    /* Start Banner Area */
+    .site-main .site-banner .para{
+        text-align: center;
+        font-size: 40px;
     }
-    .header-menu .main-menu .navbar-nav  .button:active {
+    .site-main .site-banner .image{
+      margin-left: 280px;
+        width: 800px;
+        height: 120px;
+    }
+    .site-main .site-banner .para1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration-color: black;
+    }
+    .site-main .site-banner .para2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .site-main .site-banner  .button{
+        box-shadow: 6px -6px 0px 0px black;
+        background-color:#FFFFFF;
+        border:1px solid #000000;
+        /* border-radius: 4px ; */
+        display:block;
+        cursor:pointer;
+        color:#000000;
+        font-style:italic;
+        text-decoration:none;
+        width: 100px; margin: 0 auto;
+    }
+    .site-main .site-banner .button:hover{
+        background-color:#ffff15;
+    }
+    .site-main .site-banner .button:active{
         position:relative;
         top:1px;
     }
+    .site-main .site-banner .para3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 450;
+        text-decoration-color: black;
+        padding: 0px;
+    }
+    .site-main .site-banner .para4{
+        text-align: center;
+        font-weight: 450;
+        font-size: 30px;
+        text-decoration-color: black;
+    }
+    .site-main .site-banner .para5{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 450;
+        text-decoration-color: black;
+    }
+    /* End Banner Area */
 
-    .card1{
-font-size: 30px;
-font-weight: 550;
-display: block;
-justify-content: space-between;
-border: 2.5px solid #000000;
-display: inline-block;
-cursor: pointer;
-color: #000000;
-font-size: 21px;
-text-decoration: none;
-border-radius: 10px;
+.card1{
+        font-size: 30px;
+        font-weight: 550;
+        display: block;
+        justify-content: space-between;
+        border: 2.5px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-size: 21px;
+        text-decoration: none;
+        border-radius: 10px;
 }
-    
-      h1, p{
-          font-family: 'Zilla Slab', serif;
-      }
-      footer{
-          margin-top: 30px;
-          height: 40px;
-      }
 
+h1, p{
+        font-family: 'Zilla Slab', serif;
+}
+footer{
+        margin-top: 30px;
+        height: 40px;
+}
 
-
-
-
-      .card4{
+.card4{
 
         width: 220px;
-height: 290px;
-font-size: 30px;
-font-weight: 550;
-margin-left: -6.5%;
-margin-top: 4%;
-display: block;
-justify-content: space-between;
-background-color: #ffffff;
-border: 2.5px solid #000000;
-display: inline-block;
-cursor: pointer;
-color: #000000;
-font-size: 21px;
-text-decoration: none;
-border-radius: 10px;
+        height: 290px;
+        font-size: 30px;
+        font-weight: 550;
+        margin-left: -6.5%;
+        margin-top: 4%;
+        display: block;
+        justify-content: space-between;
+        background-color: #ffffff;
+        border: 2.5px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-size: 21px;
+        text-decoration: none;
+        border-radius: 10px;
 
-          }
+}
