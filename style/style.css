@@ -147,6 +147,51 @@ margin-left:-35px;
         h1, p{
           font-family: 'Zilla Slab', serif;
         }
+/* Start FAQ AREA */
+
+.accordion {
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-left: 100px;
+     padding: 15px 20px; 
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  .accordion:after {
+    content: '\02795';
+    font-family: "Zilla Slab";
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    float: center;
+  }
+  
+  .accordion.is-open:after {
+    content: "\2796";
+  }
+  
+  .accordion:hover,.accordion.is-open {
+     background-color:white; 
+  }
+  
+  .accordion-content {
+    padding: 0 20px;
+    margin-left: 100px;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Zilla Slab';
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+    /* End FAQ AREA */
         footer{
           margin-top: 48px;
           height: 40px;
