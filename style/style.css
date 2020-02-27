@@ -2,17 +2,16 @@
     font-family: 'Zilla Slab', serif;
 }
 
-
 .header-menu .main-menu .navbar-nav .nav-link{
     width: 180px;
     height: 50px;
     font-size:30px;
     font-weight: 400;
     display:block;
-justify-content:space-between;
-margin-left:-35px;
-
+    justify-content:space-between;
+    margin-left:-35px;
 }
+
 .header-menu .main-menu .navbar-nav .button{
 
         box-shadow: 6px -6px 0px 0px #000000;
@@ -24,14 +23,16 @@ margin-left:-35px;
         font-size:21px;
         font-style:italic;
         text-decoration:none;
-    }
-    .header-menu .main-menu .navbar-nav  .button:hover {
+}
+.header-menu .main-menu .navbar-nav  .button:hover {
         background-color:#faf60b;
-    }
-    .header-menu .main-menu .navbar-nav  .button:active {
+}
+.header-menu .main-menu .navbar-nav  .button:active {
         position:relative;
         top:1px;
-    }
+}
+
+
     /* Start Banner Area */
     .site-main .site-banner .para{
         text-align: center;
@@ -54,7 +55,7 @@ margin-left:-35px;
         font-size: 20px;
     }
     .site-main .site-banner  .button{
-        box-shadow: 6px -6px 0px 0px #00A2FF;
+        box-shadow: 6px -6px 0px 0px black;
         background-color:#FFFFFF;
         border:1px solid #000000;
         /* border-radius: 4px ; */
@@ -93,106 +94,45 @@ margin-left:-35px;
     }
     /* End Banner Area */
 
-    .card1{
-      width: 220px;
-      height: 290px;
-      font-size:30px;
-      font-weight: 550;
-      display:block;
-  justify-content:space-between;
-            box-shadow: 9px -9px 0px 0px #FF003B;
-            background-color:#ffffff;
-            border:2.5px solid #000000;
-            display:inline-block;
-            cursor:pointer;
-            color:#000000;
-            font-size:21px;
-            text-decoration:none;
-            border-radius: 10px;
-        }
-    .card2{
-          width: 220px;
-          height: 290px;
-          font-size:30px;
-          font-weight: 550;
-          display:block;
-      justify-content:space-between;
-                box-shadow: 9px -9px 0px 0px #FFAB0F;
-                background-color:#ffffff;
-                border:2.5px solid #000000;
-                display:inline-block;
-                cursor:pointer;
-                color:#000000;
-                font-size:21px;
-                text-decoration:none;
-                border-radius: 10px;
-            }
-    .card3{
-              width: 220px;
-              height: 290px;
-              font-size:30px;
-              font-weight: 550;
-              display:block;
-          justify-content:space-between;
-                    box-shadow: 9px -9px 0px 0px #00A2FF;
-                    background-color:#ffffff;
-                    border:2.5px solid #000000;
-                    display:inline-block;
-                    cursor:pointer;
-                    color:#000000;
-                    font-size:21px;
-                    text-decoration:none;
-                    border-radius: 10px;
-                }
-        h1, p{
-          font-family: 'Zilla Slab', serif;
-        }
-/* Start FAQ AREA */
+.card1{
+        font-size: 30px;
+        font-weight: 550;
+        display: block;
+        justify-content: space-between;
+        border: 2.5px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-size: 21px;
+        text-decoration: none;
+        border-radius: 10px;
+}
 
-.accordion {
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    margin-left: 100px;
-     padding: 15px 20px; 
-    font-size: 50px;
-    color: black;
-    cursor: pointer;
-    transition: background-color 0.2s linear;
-  }
-  
-  .accordion:after {
-    content: '\02795';
-    font-family: "Zilla Slab";
-    font-size: 50px;
-    font-weight: normal;
-    font-style: italic;
-    float: center;
-  }
-  
-  .accordion.is-open:after {
-    content: "\2796";
-  }
-  
-  .accordion:hover,.accordion.is-open {
-     background-color:white; 
-  }
-  
-  .accordion-content {
-    padding: 0 20px;
-    margin-left: 100px;
-    max-height: 0;
-    overflow: hidden;
-    font-size: 50px;
-    font-weight: normal;
-    font-style: italic;
-    font-family: 'Zilla Slab';
-    transition: max-height 0.2s ease-in-out;
-  }
-  
-    /* End FAQ AREA */
-        footer{
-          margin-top: 48px;
-          height: 40px;
-        }
+h1, p{
+        font-family: 'Zilla Slab', serif;
+}
+footer{
+        margin-top: 30px;
+        height: 40px;
+}
+
+.card4{
+
+        width: 220px;
+        height: 290px;
+        font-size: 30px;
+        font-weight: 550;
+        margin-left: -6.5%;
+        margin-top: 4%;
+        display: block;
+        justify-content: space-between;
+        background-color: #ffffff;
+        border: 2.5px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-size: 21px;
+        text-decoration: none;
+        border-radius: 10px;
+
+}
