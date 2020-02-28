@@ -55,10 +55,10 @@ margin-left:-35px;
         
     }
     .site-main .site-banner  .button{
-        box-shadow: 6px -6px 0px 0px black;
+        box-shadow: 6px -6px 0px 0px #00A2FF;
         /* background-color:#FFFFFF; */
-        border:1px solid #000000;
-        /* border-radius: 4px ; */
+        border:2px solid #000000;
+        border-radius: 4px ;
         display:block;
         cursor:pointer;
         color:#000000;
