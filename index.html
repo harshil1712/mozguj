@@ -14,7 +14,9 @@
     crossorigin="anonymous"></script>
     
     <!-- Bootstrap File -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <!--<link rel="stylesheet" href="./style/bootstrap.min.css">-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+    <!--<link rel="stylesheet" href="./style/bootstrap.min.css">-->
 
     <!-- Zilla Slab Font -->
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,500,600,600i,700,700i&display=swap"
@@ -32,7 +34,7 @@
 
 <body>
     <!-- Navbar Starts -->
-    <header class="header-menu">
+    <header class="header-menu" id="head_top">
         <div class="main-menu" style="margin-top: 9%;">
             <nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: white;">
                 <a class="navbar-brand" href="#"><img class="img" src="./assets/mozguj-horizontal-black.png" alt="user"
@@ -44,7 +46,7 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">HOME
+                            <a class="nav-link" href="#">HOME
                                  <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -69,6 +71,7 @@
                 </div>
             </nav>
         </div>
+        <script src="script/nav.js"></script>
     </header>
     <!-- Navbar Ends -->
 
@@ -77,7 +80,7 @@
         <!-- Start Banner Area -->
         <section class="site-banner">
             <div class="paragraph">
-                <p class="para">
+                <p class="para" >
                     WE ARE
                 </p>
             </div>
@@ -97,7 +100,7 @@
             <p class="para4">
                 Mozilla lovers in Gujarat,India
             </p>
-            <p class="para5">
+            <p class="para5" >
                 WE ❤️ THE WEB
             </p>
         </section>
@@ -111,20 +114,20 @@
 
 
 <!-- FAQ Section Starts Here -->
-<section id="faq" style="margin-top: 7%;">
+<section id="faq" style="margin-top: 7%;" >
     <!-- FAQ Header Start -->
     <h1 style="margin-top: 0px; 
         font-size: 60px;
         font-style: italic;
         font-family: 'Zilla Slab';
         text-align: center;
-        font-weight: normal;">FAQ</h1>
+        font-weight: normal;" >FAQ</h1>
 
     <!-- FAQ Header Ends-->
 
     <br><br>
 
-    <div class="accordion">Some question 1</div>
+    <div class="accordion" >Some question 1</div>
     <div class="accordion-content">
         <p>
             Group 3: Bihar, Sikkim, Arunachal Pradesh, Nagaland, Manipur, Mizoram, Tripura,
@@ -153,8 +156,8 @@
     </div>
 
     <div class="accordion">Some question 4</div>
-    <div class="accordion-content">
-        <p>
+    <div class="accordion-content" >
+        <p >
             Group 3: Bihar, Sikkim, Arunachal Pradesh, Nagaland, Manipur, Mizoram, Tripura,
             Meghalaya, Assam, West Bengal, Andaman & Nicobar Islands, Jharkhand, Odisha,
             Chhattisgarh,
@@ -302,8 +305,8 @@
 
     <!-- Footer Starts -->
     <footer style="background-color: black;">
-        <span style="font-size:20px; font-family: 'Zilla Slab', serif; color: white;">Made with <i class="fa fa-heart"
-                aria-hidden="true" style="color:red;"></i> by MozGuj</span>
+        <a href="#"><span style="font-size:20px; font-family: 'Zilla Slab', serif; color: white;" id="home">Made with <i class="fa fa-heart"
+                aria-hidden="true" style="color:red;"></i> by MozGuj</span></a>
         <span style="float: right; margin-right:25px; color: red;"><i class="fa fa-instagram fa-2x"></i></span>
         <span style="float: right; margin-right:25px; color: blue;"><i class="fa fa-twitter fa-2x"
                 aria-hidden="true"></i></span>

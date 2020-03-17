@@ -13,8 +13,12 @@ margin-left:-35px;
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header-menu .main-menu .navbar-nav .nav-link a:active{
-   text-decoration: underline; 
+   text-decoration: none; 
 }
 .header-menu .main-menu .navbar-nav .button{
 
@@ -34,7 +38,9 @@ margin-left:-35px;
     .header-menu .main-menu .navbar-nav  .button:active {
         position:fixed;
         top:1px;
+        text-decoration:none;
     }
+
 
     /* Start Banner Area */
     .site-main .site-banner .para{
