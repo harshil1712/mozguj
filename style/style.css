@@ -36,7 +36,7 @@ html{
         background-color:#faf60b;
     }
     .header-menu .main-menu .navbar-nav  .button:active {
-        position:fixed;
+        
         top:1px;
         text-decoration:none;
     }
