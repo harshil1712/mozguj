@@ -243,7 +243,7 @@ html{
     text-align: left;
     margin-left: 100px;
      padding: 15px 20px; 
-    font-size: 35px;
+    font-size: 50px;
     color: black;
     cursor: pointer;
     font-family: 'Zilla Slab', serif;
@@ -253,7 +253,7 @@ html{
   .accordion:after {
     content: '\02795';
     font-family: "Zilla Slab";
-    font-size: 20px;
+    font-size: 35px;
     font-weight: normal;
     font-style: italic;
     float: center;
@@ -274,12 +274,12 @@ html{
     margin-left: 100px;
     max-height: 0;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: normal;
     font-style: italic;
     font-family: 'Zilla Slab';
     transition: max-height 0.2s ease-in-out;
-    width: 90%;
+    width: 85%;
   }
     /* End FAQ AREA */
 
