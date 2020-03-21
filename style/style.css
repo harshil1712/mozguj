@@ -18,7 +18,7 @@ html{
 }
 
 .header-menu .main-menu .navbar-nav .nav-link a:active{
-   text-decoration: none; 
+   text-decoration: underline; 
 }
 .header-menu .main-menu .navbar-nav .button{
 
