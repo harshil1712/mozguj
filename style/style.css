@@ -16,9 +16,15 @@ margin-left:-35px;
 html{
     scroll-behavior: smooth;
 }
+.navbar-collapse {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    line-height: 25px;
+}
 
 .header-menu .main-menu .navbar-nav .nav-link a:active{
-   text-decoration: none; 
+    text-decoration: underline;
 }
 .header-menu .main-menu .navbar-nav .button{
 
@@ -50,9 +56,9 @@ html{
     }
 
     .site-main .site-banner .image{
-      margin-left: 2%;
-        width: 95%;
-        height: 95%;
+      margin-left: 12%;
+        width: 75%;
+        height: 75%;
     }
     .site-main .site-banner .para1{
         text-align: center;
@@ -231,7 +237,7 @@ html{
 
 /* Start FAQ AREA */
 .accordion {
-    width: 1000px;
+    width: 90%;
     border: none;
     outline: none;
     text-align: left;
@@ -252,7 +258,7 @@ html{
     font-style: italic;
     float: center;
     color: #000000;
-    width: 200px;
+    width: 90%;
   }
   
   .accordion.is-open:after {
@@ -273,37 +279,91 @@ html{
     font-style: italic;
     font-family: 'Zilla Slab';
     transition: max-height 0.2s ease-in-out;
-    width: 1000px;
+    width: 90%;
   }
     /* End FAQ AREA */
 
         footer{
           margin-top: 48px;
-          height: 40px;
+          height: 46px;
+          padding-left: 20px;
+          padding-top: 6px;
         }
 
-        @media only screen and (max-width:620px) {
+        @media only screen and (max-width:540px) {
             /* For mobile phones: */
             .card1{
-              margin-top: 40px;
+              margin-top: 50px;
             }
             .site-main{
                 margin-top: 110px;
             }
             .accordion{
-                width: 400px;
+                width: 75%;
             }
             .accordion-content{
-                width: 400px;
+                width: 75%;
             }
             .accordion:after{
-                width: 400px;
+                width: 75%;
+            }
+            .site-main .site-banner .image{
+                height: 95%;
+                width: 95%;
+                margin-left: 2%;
+            }
+            #clb{
+                padding-top: 30px;
+            }
+
+          }
+
+          @media (max-width: 786px) {
+            .site-main{
+                margin-top: 110px;
+            }
+            
+            .accordion{
+                width: 70%;
+            }
+            .accordion-content{
+                width: 85%;
+            }
+            .card1{
+                margin-top: 50px;
             }
           }
-          @media only screen and (max-width:620px) {
-            /* For mobile phones: */
-            .card4{
-              width: 100%;
-              height: 100%;
+
+         @media (min-width: 790px) and (max-width: 1080px) {
+            .site-main{
+                margin-top: 110px;
             }
-          }
+            #event{
+                margin-left: -100px;
+            }
+            #club{
+                margin-left: -120px;
+            }
+            #clb{
+                padding-top: 30px;
+                text-align: center;
+                margin-left: 120px;
+            }
+            #eve{
+                text-align: center;
+                margin-left: 100px;
+            }
+            .card1{
+                margin-top: 40px;
+            }
+            .accordion{
+                width: 60%;
+            }
+            .accordion-content{
+                width: 80%;
+            }
+          }  
+         
+        
+
+          
