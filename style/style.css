@@ -16,15 +16,9 @@ margin-left:-35px;
 html{
     scroll-behavior: smooth;
 }
-.navbar-collapse {
-    justify-content: center;
-    display: grid;
-    text-align: center;
-    line-height: 25px;
-}
 
 .header-menu .main-menu .navbar-nav .nav-link a:active{
-    text-decoration: underline;
+   text-decoration: none; 
 }
 .header-menu .main-menu .navbar-nav .button{
 
@@ -56,9 +50,9 @@ html{
     }
 
     .site-main .site-banner .image{
-      margin-left: 12%;
-        width: 75%;
-        height: 75%;
+      margin-left: 2%;
+        width: 95%;
+        height: 95%;
     }
     .site-main .site-banner .para1{
         text-align: center;
@@ -152,15 +146,7 @@ html{
         h1, p{
           font-family: 'Zilla Slab', serif;
         }
-        #eve{
-            padding-top: 70px;
-        }
-        #clb{
-            padding-top: 70px;
-        }
-        #faq{
-            padding-top: 50px;
-        }
+
         /* Start ABOUT AREA */
 
         /* Header Section  */
@@ -245,13 +231,13 @@ html{
 
 /* Start FAQ AREA */
 .accordion {
-    width: 90%;
+    width: 1000px;
     border: none;
     outline: none;
     text-align: left;
     margin-left: 100px;
      padding: 15px 20px; 
-    font-size: 45px;
+    font-size: 50px;
     color: black;
     cursor: pointer;
     font-family: 'Zilla Slab', serif;
@@ -266,7 +252,7 @@ html{
     font-style: italic;
     float: center;
     color: #000000;
-    width: 90%;
+    width: 200px;
   }
   
   .accordion.is-open:after {
@@ -282,81 +268,42 @@ html{
     margin-left: 100px;
     max-height: 0;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     font-style: italic;
     font-family: 'Zilla Slab';
     transition: max-height 0.2s ease-in-out;
-    width: 90%;
+    width: 85%;
   }
     /* End FAQ AREA */
 
         footer{
           margin-top: 48px;
-          height: 46px;
-          padding-left: 20px;
-          padding-top: 6px;
+          height: 40px;
         }
 
-        @media only screen and (max-width:575.98px) {
+        @media only screen and (max-width:620px) {
             /* For mobile phones: */
+            .card1{
+              margin-top: 40px;
+            }
             .site-main{
                 margin-top: 110px;
             }
             .accordion{
-                width: 60%;
-                font-size: 35px;
+                width: 400px;
             }
             .accordion-content{
-                width: 72%;
-                font-size: 20px;
+                width: 400px;
             }
-            .site-main .site-banner .image{
-                height: 95%;
-                width: 95%;
-                margin-left: 2%;
+            .accordion:after{
+                width: 400px;
             }
-            .card1{
-                margin-top: 15%;
-            }
-            
-            
-
           }
-
-          @media (max-width: 786px) {
-            .site-main{
-                margin-top: 110px;
+          @media only screen and (max-width:620px) {
+            /* For mobile phones: */
+            .card4{
+              width: 100%;
+              height: 100%;
             }
-            
-            .accordion{
-                width: 70%;
-                font-size: 35px;
-            }
-            .accordion-content{
-                width: 82%;
-                font-size: 20px;
-            }
-            .card1{
-                margin-top: 50px;
-            }
-          } 
-
-          @media (min-width: 790px) and (max-width: 1080px) {
-            .site-main{
-                margin-top: 110px;
-            }
-            .card1{
-                margin-top: 40px;
-            }
-            .accordion{
-                width: 60%;
-            }
-            .accordion-content{
-                width: 80%;
-            }
-        }  
-         
-        
-
-          
+          }
