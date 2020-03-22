@@ -33,7 +33,10 @@ html{
         text-decoration:none;
     }
     .header-menu .main-menu .navbar-nav  .button:hover {
-        background-color:#faf60b;
+        background: #00c3ff;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
     }
     .header-menu .main-menu .navbar-nav  .button:active {
         
@@ -80,7 +83,10 @@ html{
     }
     
     .site-main .site-banner .button:hover{
-        background-color:#ffff15;
+        background: #00c3ff;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
         
     }
     .site-main .site-banner .button:active{
