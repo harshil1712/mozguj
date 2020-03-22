@@ -18,7 +18,7 @@ html{
 }
 
 .header-menu .main-menu .navbar-nav .nav-link a:active{
-   text-decoration: underline; 
+   text-decoration: none; 
 }
 .header-menu .main-menu .navbar-nav .button{
 
@@ -119,6 +119,8 @@ html{
         display: inline-block;
         cursor: pointer;
         color: #000000;
+        font-size: 21px;
+        text-decoration: none;
         border-radius: 10px;
 }
     .card4{
@@ -140,11 +142,6 @@ html{
         text-decoration: none;
         border-radius: 10px;
 
-}
-
-.card4:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.05);
 }
         h1, p{
           font-family: 'Zilla Slab', serif;
