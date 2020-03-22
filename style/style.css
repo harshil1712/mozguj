@@ -152,7 +152,15 @@ html{
         h1, p{
           font-family: 'Zilla Slab', serif;
         }
-
+        #eve{
+            padding-top: 70px;
+        }
+        #clb{
+            padding-top: 70px;
+        }
+        #faq{
+            padding-top: 50px;
+        }
         /* Start ABOUT AREA */
 
         /* Header Section  */
@@ -243,7 +251,7 @@ html{
     text-align: left;
     margin-left: 100px;
      padding: 15px 20px; 
-    font-size: 50px;
+    font-size: 45px;
     color: black;
     cursor: pointer;
     font-family: 'Zilla Slab', serif;
@@ -274,12 +282,12 @@ html{
     margin-left: 100px;
     max-height: 0;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal;
     font-style: italic;
     font-family: 'Zilla Slab';
     transition: max-height 0.2s ease-in-out;
-    width: 85%;
+    width: 90%;
   }
     /* End FAQ AREA */
 
@@ -290,31 +298,29 @@ html{
           padding-top: 6px;
         }
 
-        @media only screen and (max-width:540px) {
+        @media only screen and (max-width:575.98px) {
             /* For mobile phones: */
-            .card1{
-              margin-top: 50px;
-            }
             .site-main{
                 margin-top: 110px;
             }
             .accordion{
-                width: 75%;
+                width: 60%;
+                font-size: 35px;
             }
             .accordion-content{
-                width: 75%;
-            }
-            .accordion:after{
-                width: 75%;
+                width: 72%;
+                font-size: 20px;
             }
             .site-main .site-banner .image{
                 height: 95%;
                 width: 95%;
                 margin-left: 2%;
             }
-            #clb{
-                padding-top: 30px;
+            .card1{
+                margin-top: 15%;
             }
+            
+            
 
           }
 
@@ -325,33 +331,20 @@ html{
             
             .accordion{
                 width: 70%;
+                font-size: 35px;
             }
             .accordion-content{
-                width: 85%;
+                width: 82%;
+                font-size: 20px;
             }
             .card1{
                 margin-top: 50px;
             }
-          }
+          } 
 
-         @media (min-width: 790px) and (max-width: 1080px) {
+          @media (min-width: 790px) and (max-width: 1080px) {
             .site-main{
                 margin-top: 110px;
-            }
-            #event{
-                margin-left: -100px;
-            }
-            #club{
-                margin-left: -120px;
-            }
-            #clb{
-                padding-top: 30px;
-                text-align: center;
-                margin-left: 120px;
-            }
-            #eve{
-                text-align: center;
-                margin-left: 100px;
             }
             .card1{
                 margin-top: 40px;
@@ -362,7 +355,7 @@ html{
             .accordion-content{
                 width: 80%;
             }
-          }  
+        }  
          
         
 
