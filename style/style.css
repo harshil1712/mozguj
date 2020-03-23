@@ -152,6 +152,10 @@ html{
     box-shadow: var(--box-shadow);
     transform: scale(1.05);
 }
+
+.row{
+    margin-left: 5%;
+}
         h1, p{
           font-family: 'Zilla Slab', serif;
         }
@@ -307,6 +311,9 @@ html{
             }
             .accordion:after{
                 width: 400px;
+            }
+            .row{
+                margin-left: 12%;
             }
           }
           @media only screen and (max-width:620px) {
