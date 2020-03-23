@@ -168,6 +168,10 @@ html{
     box-shadow: var(--box-shadow);
     transform: scale(1.05);
 }
+
+.row{
+    margin-left: 5%;
+}
         h1, p{
           font-family: 'Zilla Slab', serif;
         }
@@ -334,7 +338,9 @@ html{
                 width: 95%;
                 margin-left: 2%;
             }
-
+            .row{
+                margin-left: 5%;
+            }
           }
           @media (min-width: 790px) and (max-width: 1080px){
             .site-main{
