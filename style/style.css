@@ -1,0 +1,367 @@
+.header-menu {
+    font-family: 'Zilla Slab', serif;
+}
+
+.header-menu .main-menu .navbar-nav .nav-link{
+    width: 180px;
+    height: 50px;
+    font-size:30px;
+    font-weight: 400;
+    display:block;
+justify-content:space-between;
+margin-left:-35px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    line-height: 25px;
+}
+
+#faq{
+    padding-top: 100px;
+}
+#club{
+    padding-top: 80px;
+}
+#event{
+    padding-top: 50px;
+}
+.header-menu .main-menu .navbar-nav .nav-link a:active{
+   text-decoration: underline; 
+}
+.header-menu .main-menu .navbar-nav .button{
+
+        box-shadow: 6px -6px 0px 0px #000000;
+        background-color:#ffffff;
+        border:2px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-size:21px;
+        font-style:italic;
+        text-decoration:none;
+    }
+    .header-menu .main-menu .navbar-nav  .button:hover {
+        background: #00c3ff;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+    .header-menu .main-menu .navbar-nav  .button:active {
+        
+        top:1px;
+        text-decoration:none;
+    }
+
+
+    /* Start Banner Area */
+    .site-main .site-banner .para{
+        text-align: center;
+        font-size:40px;
+    
+    }
+
+    .site-main .site-banner .image{
+        margin-left: 12%;
+        width: 75%;
+        height: 75%;
+    }
+    .site-main .site-banner .para1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        text-decoration-color: black;
+    }
+    .site-main .site-banner .para2{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .site-main .site-banner  .button{
+        box-shadow: 6px -6px 0px 0px #000000;
+        /* background-color:#FFFFFF; */
+        border:2px solid #000000;
+        /* border-radius: 4px ; */
+        display:block;
+        cursor:pointer;
+        color:#000000;
+        font-style:italic;
+        text-decoration:none;
+        width: 100px; margin: 0 auto;
+    }
+    
+    .site-main .site-banner .button:hover{
+        background: #00c3ff;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+    }
+    .site-main .site-banner .button:active{
+        position:relative;
+        top:1px;
+        
+    }
+    .site-main .site-banner .para3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 450;
+        text-decoration-color: black;
+        padding: 0px;
+    }
+    .site-main .site-banner .para4{
+        text-align: center;
+        font-weight: 450;
+        font-size: 30px;
+        text-decoration-color: black;
+    }
+    .site-main .site-banner .para5{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 450;
+        text-decoration-color: black;
+    }
+    /* End Banner Area */
+    .card1{
+        width: 220px; 
+        height: 290px;
+        font-size: 30px;
+        font-weight: 700;
+        display: block;
+        justify-content: space-between;
+        border: 2.5px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        border-radius: 10px;
+}
+    .card4{
+
+        width: 220px;
+        height: 290px;
+        font-size: 30px;
+        font-weight: 550;
+        margin-left: -6.5%;
+        margin-top: 4%;
+        display: block;
+        justify-content: space-between;
+        background-color: #ffffff;
+        border: 2.5px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-size: 21px;
+        text-decoration: none;
+        border-radius: 10px;
+
+}
+
+.card4:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.05);
+}
+
+.row{
+    margin-left: 5%;
+}
+        h1, p{
+          font-family: 'Zilla Slab', serif;
+        }
+
+        /* Start ABOUT AREA */
+
+        /* Header Section  */
+        .about-page .abt{  
+            color: black;
+            margin-top: 0px; 
+            font-size: 50px;
+            font-style: italic;
+            font-family: 'Zilla Slab';
+            text-align: center;
+            font-weight: normal;
+        }
+    
+        /* Paragraph Section para1 */
+        .about-page .banner .para1{ 
+            font-size: 30px;
+            font-family: 'Zilla Slab';
+            text-align: center;
+            font-weight: normal;
+            font-style: italic;
+            color: black;
+            opacity: 1;
+            line-height: 50px;  
+             
+        }
+        /* Paragraph Section para2 */
+        .about-page .banner .para2{  
+            font-size: 30px;
+            font-family: 'Zilla Slab';
+            text-align: center;
+            font-weight: normal;
+            font-style: italic;
+            color: black;
+            opacity: 1;
+           line-height: 10px; 
+        }
+
+        /* Paragraph Section para3 */
+        .about-page .banner .para3{
+            font-size: 30px;
+            font-family: 'Zilla Slab';
+            text-align: center;
+            font-weight: normal;
+            font-style: italic;
+            color: black;
+            opacity: 1;
+            /*  line-height: 10px; */
+        }
+
+        /* Paragraph Section para4 */
+        .about-page .banner .para4{
+            font-size: 30px;
+            font-family: 'Zilla Slab';
+            text-align: center;
+            font-weight: normal;
+            font-style: italic;
+            color: black;
+            opacity: 1;
+        }
+
+        /* Box Image Area  */
+         .box .img{
+            width: 500px;
+            height: 300px;
+            font-size:px;
+            font-weight: 0px;
+            display:block; 
+            margin-left: -150px;
+            justify-content:center; 
+                 box-shadow: 9px -9px 0px 0px #FF003B; 
+                  background-color:#ffffff;
+                  border:2.5px solid #000000; 
+                  display:inline-block; 
+                  cursor:pointer;
+                  color:#000000;
+                  font-size:0px; 
+                  text-decoration:none;
+                  border-radius: 10px;
+            }
+        /* End ABOUT AREA */
+        
+
+/* Start FAQ AREA */
+.accordion {
+    width: 70%;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-left: 100px;
+     padding: 15px 20px; 
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Zilla Slab', serif;
+    transition: background-color 0.2s linear;
+  }
+  
+  .accordion:after {
+    content: '\02795';
+    font-family: "Zilla Slab";
+    font-size: 35px;
+    font-weight: normal;
+    font-style: italic;
+    float: center;
+    color: #000000;
+    width: 90%;
+  }
+  
+  .accordion.is-open:after {
+    content: "\2796";
+  }
+  
+  .accordion:hover,.accordion.is-open {
+     background-color:white; 
+  }
+  
+  .accordion-content {
+    padding: 0 20px;
+    margin-left: 100px;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Zilla Slab';
+    transition: max-height 0.2s ease-in-out;
+    width: 85%;
+  }
+    /* End FAQ AREA */
+
+        footer{
+          margin-top: 48px;
+          height: 46px;
+          padding-left: 20px;
+          padding-top: 6px;
+        }
+
+        
+          @media (max-width:575.98px) {
+            /* For mobile phones: */
+            .card1{
+                margin-top: 15%;
+            }
+            .site-main{
+                margin-top: 110px;
+            }
+            .accordion{
+                width: 82%;
+                font-size: 27px;
+            }
+            .accordion:after{
+                width: 60%;
+            }
+            .accordion-content{
+                width: 80%;
+                font-size: 23px;
+            }
+            .site-main .site-banner .image{
+                height: 95%;
+                width: 95%;
+                margin-left: 2%;
+            }
+            .row{
+                margin-left: 5%;
+            }
+          }
+          @media (min-width: 790px) and (max-width: 1080px){
+            .site-main{
+                margin-top: 110px;
+            }
+            .card1{
+                margin-top: 40px;
+            }
+            .accordion-content{
+                width: 85%;
+                font-size: 25px;
+            }
+            .accordion{
+                width: 90%;
+                font-size: 30px;
+            }
+            .site-main .site-banner .image{
+                height: 90%;
+                width: 90%;
+                margin-left: 5%;
+            }
+
+          }
+        
