@@ -69,9 +69,9 @@ html{
     }
 
     .site-main .site-banner .image{
-        margin-left: 11rem;
-        width: 75%;
-        height: 75%;
+        margin-left: 0.9rem;
+        width: 97%;
+        height: 97%;
     }
     .site-main .site-banner .para1{
         text-align: center;
@@ -405,5 +405,6 @@ html{
             }
 
           }
+         
           
         
