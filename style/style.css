@@ -169,6 +169,33 @@ html{
     transform: scale(1.05);
 }
 
+.card5 .year{
+    font-size: 25px; 
+    margin-top: 70px;
+    float: left;
+    margin-left: 20px;
+}
+.card5 .college{
+
+    font-size: 25px; 
+    margin-top: 70px;
+   float: right;
+   margin-right: 20px;
+}
+
+.card6 .year{
+    font-size: 25px; 
+    margin-top: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+.card6 .college{
+    font-size: 25px; 
+    margin-top: 30px;
+   float: right;
+   margin-right: 20px;
+}
 .row{
     margin-left: 5%;
 }
