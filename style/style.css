@@ -5,7 +5,10 @@
 .navbar-light{
     background-color: #ffffff;
 }
-
+.navbar-brand img{
+    height: 100px;
+    width: 210px;
+}
 /* .header-menu .main-menu .navbar-nav  .button:active {
         
         top:1px;
