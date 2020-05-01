@@ -5,7 +5,10 @@
 .navbar-light{
     background-color: #ffffff;
 }
-
+.navbar-brand img{
+    height: 100px;
+    width: 210px;
+}
 html{
     scroll-behavior: smooth;
 }
