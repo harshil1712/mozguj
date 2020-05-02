@@ -65,7 +65,6 @@ html{
     .site-main .site-banner .para{
         text-align: center;
         font-size:40px;
-    
     }
 
     .site-main .site-banner .image{
@@ -291,8 +290,8 @@ html{
     border: none;
     outline: none;
     text-align: left;
-    margin-left: 100px;
-     padding: 15px 20px; 
+    margin-left: 80px;
+    padding: 15px 20px; 
     font-size: 35px;
     color: black;
     cursor: pointer;
