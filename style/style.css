@@ -15,7 +15,6 @@ margin-left:-35px;
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 .navbar-collapse {
