@@ -1,6 +1,8 @@
 .header-menu h2,h4{
     font-family: 'Zilla Slab', serif;
+
     font-weight: 300;
+
 }
 .navbar-light{
     background-color: #ffffff;
@@ -15,6 +17,8 @@ html{
 
 .navbar-collapse {
     text-align: center;
+
+
 }
 
 #faq{
@@ -42,8 +46,10 @@ html{
 }
  .header-menu .main-menu .navbar-nav .button{
 
+
         box-shadow: 5px -5px 0px 0px #000000;
         background-color:#ffffff;
+
         border:2px solid #000000;
         color: #000000;
         display:inline-block;
