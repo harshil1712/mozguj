@@ -1,6 +1,8 @@
 .header-menu h2,h4{
     font-family: 'Zilla Slab', serif;
+
     font-weight: 300;
+
 }
 .navbar-light{
     background-color: #ffffff;
@@ -15,24 +17,39 @@ html{
 
 .navbar-collapse {
     text-align: center;
+
+
 }
 
 #faq{
     padding-top: 100px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: normal;
+    font-style: italic;
 }
 #club{
     padding-top: 80px;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
 }
 #event{
     padding-top: 50px;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
 }
 .header-menu .main-menu .navbar-nav .nav-link a:active{
    text-decoration: underline; 
 }
  .header-menu .main-menu .navbar-nav .button{
 
+
         box-shadow: 5px -5px 0px 0px #000000;
         background-color:#ffffff;
+
         border:2px solid #000000;
         color: #000000;
         display:inline-block;
@@ -112,6 +129,7 @@ html{
         font-size: 30px;
         font-weight: 450;
         text-decoration-color: black;
+        box-shadow: black;
     }
     /* End Banner Area */
     .card1{
@@ -183,7 +201,12 @@ html{
 .row{
     margin-left: 5%;
 }
-        h1, p{
+        h1{
+          font-family: 'Zilla Slab', serif;
+          text-align: center;
+        } 
+        
+        p{
           font-family: 'Zilla Slab', serif;
         }
 
@@ -281,7 +304,11 @@ html{
     border: none;
     outline: none;
     text-align: left;
-     padding: 1rem 1.25rem; 
+
+    margin-left: 40px;
+     padding: 15px 20px; 
+    font-size: 35px;
+
     color: black;
     cursor: pointer;
     font-family: 'Zilla Slab', serif;
