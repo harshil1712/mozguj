@@ -398,4 +398,36 @@ html{
             }
 
           }
+        @media(max-width:800px){
+            #body{
+                padding-top: 7%;
+            }
+        }
+
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            font-family: 'Zilla Slab', serif;
+        }
+
+        .row{
+            margin-left: 0%;
+            margin-right: 0px;
+        }
+        #contributors-face {
+            width: 210px;
+            height: 210px;
+            position: relative;
+            top: -100px;
+            object-fit: cover;
+        }
+
+        #contributors-text {
+            margin-top: -100px;
+        }
+
+        #personcard {
+            margin-bottom: 120px;
+        }
         
