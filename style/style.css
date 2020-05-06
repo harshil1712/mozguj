@@ -304,11 +304,7 @@ html{
     border: none;
     outline: none;
     text-align: left;
-
-    margin-left: 40px;
-     padding: 15px 20px; 
-    font-size: 35px;
-
+    padding: 1rem 1.25rem; 
     color: black;
     cursor: pointer;
     font-family: 'Zilla Slab', serif;
@@ -338,6 +334,7 @@ html{
     max-height: 0;
     font-size: 1.688rem;
     font-weight: normal;
+    overflow: hidden;
     font-style: italic;
     font-family: 'Zilla Slab';
     transition: max-height 0.2s ease-in-out;
