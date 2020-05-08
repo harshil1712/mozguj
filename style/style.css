@@ -341,10 +341,8 @@ html{
     /* End FAQ AREA */
 
         footer{
-          margin-top: 48px;
-          height: 46px;
-          padding-left: 20px;
-          padding-top: 6px;
+          background-color: black;
+          height: 2.875rem;
         }
 
         
