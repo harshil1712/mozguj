@@ -325,7 +325,7 @@ html{
   .accordion:hover,.accordion.is-open {
      background-color:white; 
   }
-  
+ 
   .accordion-content {
     padding: 0 20px;
     margin-left: 100px;
@@ -414,6 +414,7 @@ html{
         .row{
             margin-left: 0%;
             margin-right: 0px;
+           
         }
         #contributors-face {
             width: 210px;
@@ -421,6 +422,7 @@ html{
             position: relative;
             top: -100px;
             object-fit: cover;
+            
         }
 
         #contributors-text {
