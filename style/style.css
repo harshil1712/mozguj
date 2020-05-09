@@ -150,7 +150,7 @@ html{
         height: 290px;
         font-weight: 550;
         margin-left: -6.5%;
-        margin-top: 4%;
+        margin-top: 5%;
         display: block;
         justify-content: space-between;
         background-color: #ffffff;
@@ -160,6 +160,9 @@ html{
         color: #000000;
         text-decoration: none;
         border-radius: 10px;
+        -webkit-transition: all 0.3s ease;
+	    transition: all 0.5s ease;
+
 
 }
 
@@ -192,17 +195,24 @@ html{
     color: #000000;
     text-decoration: none;
     border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+	transition: all 0.5s ease;
 
 }
 
 .card4:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.05);
+    -webkit-transform: scale(0.25);
+	transform: scale(1.07);
+	-webkit-transition: all 1.3s ease;
+	transition: all 0.3s ease;
+
 }
 
 .card3:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.05);
+    -webkit-transform: scale(0.25);
+	transform: scale(1.07);
+	-webkit-transition: all 1.3s ease;
+	transition: all 0.3s ease;
 }
 
 .row{
