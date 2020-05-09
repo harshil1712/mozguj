@@ -133,9 +133,8 @@ html{
     }
     /* End Banner Area */
     .card1{
-        width: 220px; 
+        width: 13.75rem; 
         height: 290px;
-        font-size: 30px;
         font-weight: 700;
         display: block;
         justify-content: space-between;
@@ -147,12 +146,11 @@ html{
 }
     .card4{
 
-        width: 220px;
+        width: 13.75rem;
         height: 290px;
-        font-size: 30px;
         font-weight: 550;
         margin-left: -6.5%;
-        margin-top: 4%;
+        margin-top: 5%;
         display: block;
         justify-content: space-between;
         background-color: #ffffff;
@@ -160,44 +158,63 @@ html{
         display: inline-block;
         cursor: pointer;
         color: #000000;
-        font-size: 21px;
         text-decoration: none;
         border-radius: 10px;
+        -webkit-transition: all 0.3s ease;
+	    transition: all 0.5s ease;
+
+
+}
+
+.card2{
+    width: 15.625rem; 
+    height: 210px;
+    font-weight: 700;
+    display: block;
+    justify-content: space-between;
+    border: 2.5px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.card3{
+
+    width: 15.625rem;
+    height: 210px;
+    font-weight: 550;
+    margin-left: -6.5%;
+    margin-top: 4%;
+    display: block;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 2.5px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+	transition: all 0.5s ease;
 
 }
 
 .card4:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.05);
+    -webkit-transform: scale(0.25);
+	transform: scale(1.07);
+	-webkit-transition: all 1.3s ease;
+	transition: all 0.3s ease;
+
 }
 
-.card5 .year{
-    font-size: 25px; 
-    margin-top: 70px;
-    float: left;
-    margin-left: 20px;
-}
-.card5 .college{
-
-    font-size: 25px; 
-    margin-top: 70px;
-   float: right;
-   margin-right: 20px;
+.card3:hover{
+    -webkit-transform: scale(0.25);
+	transform: scale(1.07);
+	-webkit-transition: all 1.3s ease;
+	transition: all 0.3s ease;
 }
 
-.card6 .year{
-    font-size: 25px; 
-    margin-top: 30px;
-    float: left;
-    margin-left: 20px;
-}
-
-.card6 .college{
-    font-size: 25px; 
-    margin-top: 30px;
-   float: right;
-   margin-right: 20px;
-}
 .row{
     margin-left: 5%;
 }
