@@ -425,6 +425,7 @@ html{
             max-width: 100%;
             overflow-x: hidden;
             font-family: 'Zilla Slab', serif;
+            
         }
 
         .row{
@@ -448,6 +449,7 @@ html{
 
         #personcard {
             margin-bottom: 120px;
+            
         }
         
         .rounded-circle {
@@ -460,4 +462,8 @@ html{
             left: 0;
             border-radius: inherit;
             background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);
+        }
+
+        .p-2:hover{
+            text-decoration: none;
         }
