@@ -96,7 +96,8 @@ html{
         color:#000000;
         font-style:italic;
         text-decoration:none;
-        width: 100px; margin: 0 auto;
+        width: 200px; 
+        margin: 0 auto;
     }
     
     .site-main .site-banner .button:hover{
