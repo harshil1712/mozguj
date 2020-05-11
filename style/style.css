@@ -1,66 +1,67 @@
-.header-menu {
+.header-menu h2,h4{
     font-family: 'Zilla Slab', serif;
-}
 
-.header-menu .main-menu .navbar-nav .nav-link{
-    width: 180px;
-    height: 50px;
-    font-size:30px;
-    font-weight: 400;
-    display:block;
-justify-content:space-between;
-margin-left:-35px;
+    font-weight: 300;
 
 }
-
+.navbar-light{
+    background-color: #ffffff;
+}
+.navbar-brand img{
+    height: 100px;
+    width: 210px;
+}
 html{
     scroll-behavior: smooth;
 }
 
 .navbar-collapse {
-    justify-content: center;
-    display: grid;
     text-align: center;
-    line-height: 25px;
+
+
 }
 
 #faq{
     padding-top: 100px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: normal;
+    font-style: italic;
 }
 #club{
     padding-top: 80px;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
 }
 #event{
     padding-top: 50px;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
 }
 .header-menu .main-menu .navbar-nav .nav-link a:active{
    text-decoration: underline; 
 }
-.header-menu .main-menu .navbar-nav .button{
+ .header-menu .main-menu .navbar-nav .button{
 
-        box-shadow: 6px -6px 0px 0px #000000;
+
+        box-shadow: 5px -5px 0px 0px #000000;
         background-color:#ffffff;
+
         border:2px solid #000000;
+        color: #000000;
         display:inline-block;
         cursor:pointer;
-        color:#000000;
-        font-size:21px;
-        font-style:italic;
         text-decoration:none;
-    }
+    } 
     .header-menu .main-menu .navbar-nav  .button:hover {
         background: #00c3ff;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
     }
-    .header-menu .main-menu .navbar-nav  .button:active {
-        
-        top:1px;
-        text-decoration:none;
-    }
-
-
     /* Start Banner Area */
     .site-main .site-banner .para{
         text-align: center;
@@ -95,13 +96,14 @@ html{
         color:#000000;
         font-style:italic;
         text-decoration:none;
-        width: 100px; margin: 0 auto;
+        width: 200px; 
+        margin: 0 auto;
     }
     
     .site-main .site-banner .button:hover{
         background: #00c3ff;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
         
     }
@@ -128,12 +130,12 @@ html{
         font-size: 30px;
         font-weight: 450;
         text-decoration-color: black;
+        box-shadow: black;
     }
     /* End Banner Area */
     .card1{
-        width: 220px; 
+        width: 13.75rem; 
         height: 290px;
-        font-size: 30px;
         font-weight: 700;
         display: block;
         justify-content: space-between;
@@ -145,12 +147,11 @@ html{
 }
     .card4{
 
-        width: 220px;
+        width: 13.75rem;
         height: 290px;
-        font-size: 30px;
         font-weight: 550;
         margin-left: -6.5%;
-        margin-top: 4%;
+        margin-top: 5%;
         display: block;
         justify-content: space-between;
         background-color: #ffffff;
@@ -158,48 +159,72 @@ html{
         display: inline-block;
         cursor: pointer;
         color: #000000;
-        font-size: 21px;
         text-decoration: none;
         border-radius: 10px;
+        -webkit-transition: all 0.3s ease;
+	    transition: all 0.5s ease;
+
+
+}
+
+.card2{
+    width: 15.625rem; 
+    height: 210px;
+    font-weight: 700;
+    display: block;
+    justify-content: space-between;
+    border: 2.5px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.card3{
+
+    width: 15.625rem;
+    height: 210px;
+    font-weight: 550;
+    margin-left: -6.5%;
+    margin-top: 4%;
+    display: block;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 2.5px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+	transition: all 0.5s ease;
 
 }
 
 .card4:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.05);
+    -webkit-transform: scale(0.25);
+	transform: scale(1.07);
+	-webkit-transition: all 1.3s ease;
+	transition: all 0.3s ease;
+
 }
 
-.card5 .year{
-    font-size: 25px; 
-    margin-top: 70px;
-    float: left;
-    margin-left: 20px;
-}
-.card5 .college{
-
-    font-size: 25px; 
-    margin-top: 70px;
-   float: right;
-   margin-right: 20px;
+.card3:hover{
+    -webkit-transform: scale(0.25);
+	transform: scale(1.07);
+	-webkit-transition: all 1.3s ease;
+	transition: all 0.3s ease;
 }
 
-.card6 .year{
-    font-size: 25px; 
-    margin-top: 30px;
-    float: left;
-    margin-left: 20px;
-}
-
-.card6 .college{
-    font-size: 25px; 
-    margin-top: 30px;
-   float: right;
-   margin-right: 20px;
-}
 .row{
     margin-left: 5%;
 }
-        h1, p{
+        h1{
+          font-family: 'Zilla Slab', serif;
+          text-align: center;
+        } 
+        
+        p{
           font-family: 'Zilla Slab', serif;
         }
 
@@ -291,7 +316,7 @@ html{
     border: none;
     outline: none;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 40px;
      padding: 15px 20px; 
     font-size: 35px;
     color: black;
@@ -318,7 +343,7 @@ html{
   .accordion:hover,.accordion.is-open {
      background-color:white; 
   }
-  
+ 
   .accordion-content {
     padding: 0 20px;
     margin-left: 100px;
@@ -334,10 +359,8 @@ html{
     /* End FAQ AREA */
 
         footer{
-          margin-top: 48px;
-          height: 46px;
-          padding-left: 20px;
-          padding-top: 6px;
+          background-color: black;
+          height: 2.875rem;
         }
 
         
@@ -391,4 +414,56 @@ html{
             }
 
           }
+        @media(max-width:768px){
+            #body{
+                padding-top: 5%;
+            }
+        }
+
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            font-family: 'Zilla Slab', serif;
+            
+        }
+
+        .row{
+            margin-left: 0%;
+            margin-right: 0px;
+           
+        }
+        #contributors-face {
+            width: 210px;
+            height: 210px;
+            position: relative;
+            top: -100px;
+            object-fit: cover;
+            
+        }
+
+        #contributors-text {
+            margin-top: -100px;
+            font-family: 'Zilla Slab', serif;
+        }
+
+        #personcard {
+            margin-bottom: 120px;
+            
+        }
         
+        .rounded-circle {
+            border-radius: 50% !important;
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: inherit;
+            background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);
+        }
+
+        .p-2:hover{
+            text-decoration: none;
+        }
