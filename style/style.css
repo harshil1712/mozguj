@@ -425,6 +425,7 @@ html{
             max-width: 100%;
             overflow-x: hidden;
             font-family: 'Zilla Slab', serif;
+            
         }
 
         .row{
@@ -448,6 +449,7 @@ html{
 
         #personcard {
             margin-bottom: 120px;
+            
         }
         
         .rounded-circle {
