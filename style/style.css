@@ -462,8 +462,6 @@ html{
             left: 0;
             border-radius: inherit;
             background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);
-        }
-
-        .p-2:hover{
-            text-decoration: none;
+            background-image: -webkit-gradient(linear, right top, left top, color-stop(0.33, #9e4ef5), color-stop(0.67, #fd344b), color-stop(1, #ffdc40));
+            padding: 3px;
         }
