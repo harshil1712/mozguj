@@ -43,6 +43,16 @@ html{
     font-weight: normal;
     font-style: italic;
 }
+#reps{
+    padding-top: 70px;
+    font-weight: 600;
+    font-style: italic;
+}
+#team{
+    padding-top: 70px;
+    font-weight: 600;
+    font-style: italic;
+}
 .header-menu .main-menu .navbar-nav .nav-link a:active{
    text-decoration: underline; 
 }
@@ -418,27 +428,6 @@ html{
             }
 
           }
-        @media(max-width:768px){
-            #body{
-                padding-top: 10%;
-            }
-        }
-
-        @media(max-width:414px){
-            #reps{
-                padding-top: 25%;
-            }
-        }
-        @media(max-width:800px){
-            #reps{
-                padding-top: 5%;
-            }
-        }
-        @media(max-width:330px){
-            #reps{
-                padding-top: 25%;
-            }
-        }
 
         html,
         body {
