@@ -22,20 +22,22 @@ html{
 }
 
 #faq{
-    padding-top: 100px;
+    padding-top: 110px;
     font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: italic;
 }
 #club{
-    padding-top: 80px;
+    padding-top: 110px;
+    padding-bottom: 20px;
     font-family: 'Zilla Slab', serif;
     text-align: center;
     font-weight: normal;
     font-style: italic;
 }
 #event{
-    padding-top: 50px;
+    padding-top: 110px;
+    padding-bottom: 20px;
     font-family: 'Zilla Slab', serif;
     text-align: center;
     font-weight: normal;
@@ -222,6 +224,8 @@ html{
         h1{
           font-family: 'Zilla Slab', serif;
           text-align: center;
+          font-weight: 600;
+          font-style: italic;
         } 
         
         p{
@@ -416,7 +420,23 @@ html{
           }
         @media(max-width:768px){
             #body{
+                padding-top: 10%;
+            }
+        }
+
+        @media(max-width:414px){
+            #reps{
+                padding-top: 25%;
+            }
+        }
+        @media(max-width:800px){
+            #reps{
                 padding-top: 5%;
+            }
+        }
+        @media(max-width:330px){
+            #reps{
+                padding-top: 25%;
             }
         }
 
