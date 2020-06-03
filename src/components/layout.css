@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:wght@300,400,400i,500,600,600i,700,700i&display=swap');
+
+html, body {
+    font-family: "Zilla Slab", serif;
+    line-height: 1.5rem;
+    scroll-behavior: smooth;
+}
+h4{
+  color: #000000;
+}
+a i{
+  color: #000000;
+}
+a:hover{
+  text-decoration: none;
+}
+/* nav button */
+.blink {
+  color: rgba(0, 0, 0, 0.5);
+} 
+.ntag a:hover{
+  color: rgba(0, 0, 0, 0.9);
+}
+.alink{
+  color: rgba(0, 0, 0, 0.9);
+}
+.ntag h2{
+  font-weight: 300;
+}
+.button {
+  box-shadow: 5px -5px 0px 0px #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0;
+}
+.button:hover{
+  color: black;
+  border-color: #000000;
+  background: #00c3ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b);
+}
+/* content */
+.p1 h2{
+  font-weight: 600;
+}
+.p2 h2{
+  font-weight: 450;
+}
+/* EVENT */
+#event{
+  font-weight: 600;
+}
+.card1{
+  width: 13.75rem; 
+  height: 290px;
+  font-weight: 700;
+  display: block;
+  justify-content: space-between;
+  border: 2.5px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  border-radius: 10px;
+}
+.card4{
+  width: 13.75rem;
+  height: 290px;
+  font-weight: 550;
+  margin-left: -6.5%;
+  margin-top: 5%;
+  display: block;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 2.5px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.5s ease;
+}
+.card4:hover, .card3:hover{
+  -webkit-transform: scale(0.25);
+  transform: scale(1.07);
+  -webkit-transition: all 1.3s ease;
+  transition: all 0.3s ease;
+}
+.red{
+  background-color: #ff003b;
+}
+.yellow{
+  background-color: #FFAB0F;
+}
+.blue{
+  background-color: #00A2FF;
+}
+/* CLUBS */
+#club{
+  font-weight: 600;
+}
+.card2{
+  width: 15.625rem; 
+  height: 210px;
+  font-weight: 700;
+  display: block;
+  justify-content: space-between;
+  border: 2.5px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  border-radius: 10px;
+}
+.card3{
+  width: 15.625rem;
+  height: 210px;
+  font-weight: 550;
+  margin-left: -6.5%;
+  margin-top: 4%;
+  display: block;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 2.5px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.5s ease;
+}
+/* FAQ */
+#faq{
+  font-weight: 600;
+}
+.card-header{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.accordion1::after{
+  content: '\2795';
+}
+.accordion .card{
+  border: none;
+}
+.accordion .card-body h3 {
+  font-weight: normal;
+  line-height: 1.5;
+}
+/* Team */
+.rounded-circle{
+  z-index: 10;
+  border: 4px solid;
+  border-image: -webkit-gradient(linear, right top, left top, color-stop(0.33, #9e4ef5), color-stop(0.67, #fd344b), color-stop(1, #ffdc40));
+  border-image-slice: 0;
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.33, #9e4ef5), color-stop(0.67, #fd344b), color-stop(1, #ffdc40));
+}
+.team .card{
+  height: 61%;
+  top: -8.3rem;
+  box-shadow:  0 1.5rem 1rem rgba(0, 0, 0, 0.15) !important;;
+}
+/* footer bottom */
+.main{
+  position: relative;
+  margin-top: 10rem;
+  min-height: calc(100vh - 7.1rem - 2.875rem);
+}
+.content{
+  padding-bottom: 5.875rem;
+}
+.ions{
+  display: flex;
+  justify-content: flex-end;
+}
+.faa{
+  color: white;
+}
+.faa:hover{
+  color: white;
+}
+footer{
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.875rem;      
+}
