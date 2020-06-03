@@ -1,21 +1,36 @@
-import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import Header from "./Header";
-import Footer from "./Footer"
-import SEO from "./SEO";
-import './index.css'
+/**
+ * Layout component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+import React from "react"
+// import PropTypes from "prop-types"
+// import { useStaticQuery, graphql } from "gatsby"
 
-import "../bootstrap.min.css";
+import Header from "./header"
+import "./layout.css"
+import Footer from "./footer"
+import { Container } from "react-bootstrap"
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
   return (
-    <React.Fragment>
-      <SEO />
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </React.Fragment>
-  );
-};
+    <>
+    <Header/>
+    <div className="main">
+      <Container>
+        <div className="content">
+        {props.children}
+        </div>
+      </Container>
+      <Footer/>
+    </div>
+    </>
+  )
+}
 
-export default Layout;
+// Layout.propTypes = {
+//   children: PropTypes.node.isRequired,
+// }
+
+export default Layout
