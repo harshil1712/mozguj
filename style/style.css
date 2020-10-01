@@ -74,6 +74,12 @@ html{
         background: linear-gradient(to right, #9e4ef5, #ffdc40, #fd344b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
     }
+
+    .sticky-nav{
+        border-bottom: 2px solid black;
+        box-shadow: 0 -6px 12px 1px black;
+    }
+
     /* Start Banner Area */
     .site-main .site-banner .para{
         text-align: center;
